@@ -91,7 +91,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // Fetch data from server
-  const response = await fetch("https://archie-ai.onrender.com", {
+  const response = await fetch("https://archie-ai.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
